@@ -1,0 +1,41 @@
+:root{
+    --var-color: blueviolet;
+}
+
+.container{
+    max-width: 300px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+
+input{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 125px;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+
+h1{
+    color: var(--var-color);
+    margin-top: 0px;
+    text-align: center;
+}
+
+#resultado{
+    color: var(--var-color);
+}
